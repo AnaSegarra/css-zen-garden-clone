@@ -1,0 +1,22 @@
+/* RESET */
+body {
+  background-color: #dfdfdf;
+  padding: 0;
+  margin: 0;
+}
+h1,
+p {
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  background: url('./images/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  color: grey;
+}
+span {
+  color: #ec09ae;
+}
