@@ -11,12 +11,33 @@ p {
 
 /* HEADER */
 header {
+  padding: 0.5em;
+  margin: 1em;
+  background-color: #fff;
+  box-shadow: 0.3em 0.3em 0.5em #8e8c8c;
+  border-radius: 1em;
+}
+.header-content {
   background: url('./images/header-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  color: grey;
+  border-radius: 0.2em;
 }
 span {
   color: #ec09ae;
+}
+.header-content > div {
+  padding: 3em;
+  width: fit-content;
+}
+h1 {
+  font-size: 3rem;
+  color: #5a5a5a;
+  font-weight: lighter;
+}
+.small {
+  font-size: 1.1rem;
+  color: #797878;
+  text-align: center;
 }
