@@ -5,17 +5,31 @@ body {
   margin: 0;
 }
 h1,
-p {
+h3,
+p,
+ul {
   margin: 0;
+  padding: 0;
+}
+
+/* COMMON RULES */
+.container {
+  background-color: #fff;
+  box-shadow: 0.3em 0.3em 0.5em #8e8c8c;
+  border-radius: 1em;
+  margin: 1em;
+}
+.pink {
+  color: #ec09ae;
+}
+.border {
+  border-bottom: 1px dotted black;
+  padding: 0.5em 0;
 }
 
 /* HEADER */
 header {
   padding: 0.5em;
-  margin: 1em;
-  background-color: #fff;
-  box-shadow: 0.3em 0.3em 0.5em #8e8c8c;
-  border-radius: 1em;
 }
 .header-content {
   background: url('./images/header-bg.jpg');
@@ -23,9 +37,6 @@ header {
   background-size: cover;
   height: 200px;
   border-radius: 0.2em;
-}
-span {
-  color: #ec09ae;
 }
 .header-content > div {
   padding: 3em;
@@ -40,4 +51,30 @@ h1 {
   font-size: 1.1rem;
   color: #797878;
   text-align: center;
+}
+
+/* CONTENT */
+main {
+  display: flex;
+}
+.col-8 {
+  width: 80%;
+}
+h3 {
+  color: #4e4e4e;
+  font-weight: lighter;
+}
+
+/* LEFT COLUMN */
+.col-3 > div {
+  padding: 1em;
+}
+
+.name {
+  font-weight: bold;
+  color: #ec09ae;
+}
+.design span {
+  font-weight: bold;
+  color: #4e4e4e;
 }
