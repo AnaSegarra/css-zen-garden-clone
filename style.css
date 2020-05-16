@@ -66,6 +66,11 @@ main {
 h3 {
   color: #4e4e4e;
   font-weight: lighter;
+  font-size: 1.5rem;
+  padding: 0.5em 0.5em 0;
+  margin-bottom: 0.6em;
+  background: repeating-linear-gradient(-45deg, #eaeaea, #eaeaea 10px, #fff 10px, #fff 20px);
+  border-radius: 0.5em;
 }
 
 /* LEFT COLUMN */
@@ -84,7 +89,11 @@ h3 {
 /* RIGHT COLUMN */
 .col-7 p {
   padding-bottom: 1em;
+  padding-left: 1em;
 }
-.col-7 .container {
-  padding: 1em 1em 0;
+.p-left {
+  padding: 1em 1em 0em 7em;
+}
+.p-right {
+  padding: 1em 7em 0em 1em;
 }
