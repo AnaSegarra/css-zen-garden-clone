@@ -26,25 +26,30 @@ a {
 .border {
   border-bottom: 1px dotted black;
   padding: 0.5em 0;
+  margin-left: 0.9em;
 }
 .underline {
   border-bottom: 1px dotted;
 }
-a
 
 /* HEADER */
 header {
   padding: 0.5em;
 }
 .header-content {
-  background: url('./images/header-bg.jpg');
+  background: repeating-conic-gradient(
+      from 25deg at 25% 45%,
+      rgba(255, 255, 255, 0) 0deg 15deg,
+      rgba(206, 206, 206, 0.4) 10deg 30deg
+    ),
+    url('./images/header-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
   border-radius: 0.2em;
 }
 .header-content > div {
-  padding: 3em;
+  padding: 3em 10em;
   width: fit-content;
 }
 h1 {
