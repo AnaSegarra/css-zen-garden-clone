@@ -1,8 +1,8 @@
 # CSS Zen Garden clone
 
-> Current result on my screen
-
 ![clone result](./images/result.png)
+
+> Final result on my screen
 
 ## Overview
 
